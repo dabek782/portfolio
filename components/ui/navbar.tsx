@@ -11,10 +11,11 @@ export default function Navbar (){
     <NavigationMenu className=" mx-5  float-right " >
       <NavigationMenuList className="m-2">
         <NavigationMenuItem className="mx-3  py-2 text-azure hover:text-cerulean ">
-            About me
+           <Link href={'/#HeroSection'}>About me</Link> 
         </NavigationMenuItem>
         <NavigationMenuItem className="mx-3  py-2 text-azure hover:text-cerulean">
-            My projects
+            <Link href={'/#MyProjects'}>My projects</Link>
+            
         </NavigationMenuItem>
         <NavigationMenuItem className="mx-3  py-2 text-azure hover:text-cerulean">
             Technologies 

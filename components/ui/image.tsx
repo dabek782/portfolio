@@ -5,17 +5,13 @@ import {
 
 export default function Image (){
     return(
-        <div className="h-52 w-52 mx-30  my-20">
-      <Avatar size="default" className="h-52 w-52">
+        <div className="h-80 w-80 mx-30  my-10">
+      <Avatar size="default" className="h-80 w-80">
         <AvatarImage
           src="/profilePicture.jpg"
           alt="Jakub Dąbrowski"
-          
-          
         />
-
-      </Avatar>
-    
+      </Avatar> 
     </div>
     )
 }
